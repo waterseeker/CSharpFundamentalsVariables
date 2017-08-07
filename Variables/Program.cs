@@ -16,6 +16,10 @@ namespace Variables
             Console.WriteLine(y);
             */
 
+            string myFirstName;
+            myFirstName = "Bob";
+            Console.WriteLine(myFirstName);
+
             Console.ReadLine();
         }
     }
