@@ -21,9 +21,18 @@ namespace Variables
 
             //string myFirstName = "Bob";
 
-            var myFirstName = "Testy McTestFace";
+            //var myFirstName = "Testy McTestFace";
 
-            Console.WriteLine(myFirstName);
+            //Console.WriteLine(myFirstName);
+
+
+
+            //implicit data-type conversion
+            int x = 7;
+            string y = "Testy McTestFace";
+            string myFirstTry = x + y;
+
+            Console.WriteLine(myFirstTry);
 
             Console.ReadLine();
         }
