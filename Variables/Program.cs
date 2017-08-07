@@ -28,11 +28,17 @@ namespace Variables
 
 
             //implicit data-type conversion
-            int x = 7;
-            string y = "Testy McTestFace";
-            string myFirstTry = x + y;
+            //int x = 7;
+            //string y = "Testy McTestFace";
+            //string myFirstTry = x + y;
 
-            Console.WriteLine(myFirstTry);
+            //Console.WriteLine(myFirstTry);
+
+            //explicit data-type conversion
+            int x = 7;
+            string y = "5";
+            int mySecondTry = x + int.Parse(y);
+            Console.WriteLine(mySecondTry);
 
             Console.ReadLine();
         }
