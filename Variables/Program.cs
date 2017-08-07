@@ -16,8 +16,11 @@ namespace Variables
             Console.WriteLine(y);
             */
 
-            string myFirstName;
-            myFirstName = "Bob";
+            //string myFirstName;
+            //myFirstName = "Bob";
+
+            string myFirstName = "Bob";
+
             Console.WriteLine(myFirstName);
 
             Console.ReadLine();
