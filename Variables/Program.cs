@@ -37,7 +37,9 @@ namespace Variables
             //explicit data-type conversion
             int x = 7;
             string y = "5";
+            string myFirstTry = x.ToString() + y;
             int mySecondTry = x + int.Parse(y);
+            Console.WriteLine(myFirstTry);
             Console.WriteLine(mySecondTry);
 
             Console.ReadLine();
