@@ -6,6 +6,7 @@ namespace Variables
     {
         static void Main(string[] args)
         {
+            /*
             int x;
             int y;
 
@@ -13,6 +14,8 @@ namespace Variables
             y = x + 3;
 
             Console.WriteLine(y);
+            */
+
             Console.ReadLine();
         }
     }
